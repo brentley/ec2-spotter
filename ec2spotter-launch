@@ -39,7 +39,7 @@ cat >user-data.tmp <<EOF
 echo AWSAccessKeyId=$AWSAccessKeyId > /root/.aws.creds
 echo AWSSecretKey=$AWSSecretKey >> /root/.aws.creds
 
-apt-get install -y git
+yum -y install git jq python-pip
 
 cd /root
 git clone https://github.com/atramos/ec2-spotter.git
