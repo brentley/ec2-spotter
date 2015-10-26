@@ -42,7 +42,7 @@ echo AWSSecretKey=$AWSSecretKey >> /root/.aws.creds
 yum -y install git jq python-pip
 
 cd /root
-git clone https://github.com/atramos/ec2-spotter.git
+git clone https://github.com/brentley/ec2-spotter.git
 
 cd ec2-spotter
 ./ec2spotter-setup

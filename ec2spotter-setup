@@ -1,8 +1,8 @@
 #!/bin/sh
 
-apt-get update
-apt-get install -y jq
-apt-get -y install default-jre
-apt-get install -y python-pip python-setuptools
+yum -y update
+yum install -y jq
+yum -y install java-1.8.0-openjdk
+yum install -y python-pip python-setuptools
 pip install awscli
 
